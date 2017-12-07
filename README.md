@@ -13,7 +13,7 @@ cd build
 cmake ..
 make
 ### This will create an executable "hello-world" in the build directory.
-./hello-world
+./bin/hello-world
 ```
 
 ### Windows
@@ -41,9 +41,9 @@ make
 
       1. Click through Build -> Build solution.
 
-      2. This will create a folder for the current build configuration
-         (Debug, MinSizeRel, Release, RelWithDebInfo) with a
-         `hello-world.exe` file.
+      2. This will create a folder (`bin/*`) for the current build
+         configuration (Debug, MinSizeRel, Release, RelWithDebInfo) with
+         a `hello-world.exe` file.
 
       3. Open a command prompt or PowerShell window in this folder, type
          in `.\hello-world.exe` to run this executable.
